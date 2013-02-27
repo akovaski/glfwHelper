@@ -5,13 +5,13 @@ import (
 )
 
 type DigiState struct {
-	id    int // identification of input
-	state int //whether the input is pressed or depressed
+	Id    int // identification of input
+	State int //whether the input is pressed or depressed
 }
 
 type Point struct {
-	x int
-	y int
+	X int
+	Y int
 }
 
 func WindowCloseChan() chan bool {
